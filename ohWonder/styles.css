@@ -1,0 +1,55 @@
+html {
+  background-color:black;
+}
+
+body {
+    margin: auto 0;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align:center;
+    font-family:"Gill Sans", Molengo, sans-serif;
+}
+
+#content {
+    text-align: center;
+}
+
+#car {
+    position: relative;
+    margin-top: 7%;
+    left: 0;
+    height: 600px;
+    width: 600px;
+    transition: all 3s ease;
+}
+
+#car:hover {
+transform: scale(2);
+}
+
+#road {
+    margin-right:-600px;
+    box-shadow: 0 0 50px #000;
+    height: 600px;
+    width: 600px;
+}
+
+#footer {
+    font-family: arial;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
