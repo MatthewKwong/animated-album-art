@@ -1,5 +1,5 @@
 html {
-  background-color:black;
+    background-color: black;
 }
 
 body {
@@ -7,9 +7,9 @@ body {
     overflow-x: hidden;
 }
 
-h1{
-    text-align:center;
-    font-family:"Gill Sans", Molengo, sans-serif;
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", Molengo, sans-serif;
 }
 
 #content {
@@ -26,11 +26,11 @@ h1{
 }
 
 #car:hover {
-transform: scale(2);
+    transform: scale(2);
 }
 
 #road {
-    margin-right:-600px;
+    margin-right: -600px;
     box-shadow: 0 0 50px #000;
     height: 600px;
     width: 600px;
