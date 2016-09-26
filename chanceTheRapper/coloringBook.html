@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="coloringBook.css">
+    <title>Chance The Rapper | Coloring Book</title>
+</head>
+
+<body>
+
+
+<script>
+    alert("hover over the album cover and click it once to play, double click to pause.");
+</script>
+
+    <div id="content" onclick="document.getElementById('allWeGot').play(); document.getElementById('allWeGot').loop = true;"
+                 ondblclick = "document.getElementById('allWeGot').pause()">
+                <img src="chance.png" id="chance">
+
+        <img src="background.png" id = "background">
+    </div>
+
+
+    <audio id="allWeGot">
+    <source src="allWeGot.mp3">
+    </audio>
+
+<footer id="footer">All music owned by <a href ="http://chanceraps.com/">Chance The Rapper</a><footer>
+
+</body>
+
+</html>
