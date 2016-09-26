@@ -2,7 +2,7 @@
 
 Hi there! Welcome to my Animated Album Covers project!
 
-To properly use this choose any of the albums from the [main page](index.html)
+To properly use this choose any of the albums from the [main page](https://matthewkwong.github.io/animations/)
 
 1) Hover over the album cover
 
