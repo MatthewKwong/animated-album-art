@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="falseAlarm.css">
+    <title>The Weeknd- Starboy</title>
+</head>
+
+<body>
+
+
+<script>
+    alert("hover over the album cover and click it once to play, double click to pause.");
+</script>
+
+    <div id="content" onclick="document.getElementById('starboy').play(); document.getElementById('starboy').loop = true;"
+                 ondblclick = "document.getElementById('starboy').pause()">
+
+        <img src="back.jpg" id="back">
+                <img src="abel.png" id="abel">
+
+    </div>
+
+
+    <audio id="starboy">
+    <source src="starboy.mp3">
+    </audio>
+
+<footer id="footer">All music owned by <a href ="https://www.theweeknd.com/"><b>The Weeknd</b></a><footer>
+</body>
+
+</html>
